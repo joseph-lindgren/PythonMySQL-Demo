@@ -175,7 +175,7 @@ def ReadUserAndPwFromFile(filename):
 # END Functions
 ##############################################
 def main():
-	User, Passwd = ReadUserAndPwFromFile("EVEdbsecret.txt")
+	User, Passwd = ReadUserAndPwFromFile("REDACTED_FILE")
 	#~ print "'"+User+"','"+Passwd+"'"
 
 	argnum = len(sys.argv)
