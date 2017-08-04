@@ -181,7 +181,7 @@ def GetSqlColNames(script,firstkeyword):
 ##############################################
 # END Functions
 ##############################################
-User, Passwd = ReadUserAndPwFromFile("EVEdbsecret.txt")
+User, Passwd = ReadUserAndPwFromFile("REDACTED_FILE")
 #~ print "'"+User+"','"+Passwd+"'"
 
 minutesStale = 10
