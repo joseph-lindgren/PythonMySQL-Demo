@@ -1,3 +1,5 @@
+DROP TEMPORARY TABLE PriceAdds
+;
 CREATE TEMPORARY TABLE PriceAdds
 SELECT Inventory.typeid AS ToAdd, Pricing2.typeID AS Missing, Inventory.typeName AS Name
 FROM Pricing2 RIGHT JOIN Inventory

@@ -1,3 +1,5 @@
+DROP TEMPORARY TABLE TypeAdds
+;
 CREATE TEMPORARY TABLE TypeAdds
 SELECT typeids.typeid AS Missing, Transactions.typeID AS ToAdd, Transactions.typeName AS Name
 FROM typeids RIGHT JOIN Transactions 

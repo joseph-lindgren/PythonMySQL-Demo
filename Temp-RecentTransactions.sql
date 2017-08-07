@@ -1,3 +1,5 @@
+DROP TEMPORARY TABLE RecentTransactions
+;
 CREATE TEMPORARY TABLE RecentTransactions
 SELECT quantity, price, transactionType, typeName, transactionDateTime
 FROM Transactions 

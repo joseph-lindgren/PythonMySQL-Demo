@@ -1,3 +1,5 @@
+DROP TEMPORARY TABLE TempInventory
+;
 CREATE TEMPORARY TABLE TempInventory
 SELECT 
 	SUM(quantity*
